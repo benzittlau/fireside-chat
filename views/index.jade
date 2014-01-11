@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  html(lang="en")
+    head
+      meta(charset="utf-8")
+      title Reveal Presentation
+      meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+      link(rel="stylesheet", href="components/reveal.js/css/reveal.min.css")
+      link(rel="stylesheet", href="components/reveal.js/css/theme/default.css", id="theme")
+    body
+      .reveal
+        .slides
+          section
+            h1=Reveal
+            h3=Presentation
+    script(src="components/reveal.js/js/reveal.min.js")
+    script(type="text/javascript").
+        Reveal.initialize({history: true});
