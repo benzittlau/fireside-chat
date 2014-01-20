@@ -1,8 +1,8 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.reveal ul {
+  list-style-type: none;
 }
 
-a {
-  color: #00B7FF;
+.reveal h1{
+  word-wrap: normal;
+  hyphens: none;
 }
