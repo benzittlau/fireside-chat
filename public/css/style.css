@@ -6,3 +6,8 @@
   word-wrap: normal;
   hyphens: none;
 }
+
+blockquote:before, blockquote:after{
+  content: none;
+}
+
