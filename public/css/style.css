@@ -11,3 +11,15 @@ blockquote:before, blockquote:after{
   content: none;
 }
 
+.reveal section img.stamp {
+  left:50%;
+  top: 200px;
+  margin-left:-200px;
+  position:absolute;
+  border:none;
+  background:none;
+  /* Firefox */
+  -moz-transform:rotate(20deg);
+  /* Safari and Chrome */
+  -webkit-transform:rotate(20deg);
+}
